@@ -4,10 +4,19 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
-
+function letter(vocals) {
+    let count = 0;
+    for (let i = 0; i < vocals.length; i++) {
+        if (vocals[i] === `a` || vocals[i] === `e` || vocals[i] === `i` || vocals[i] === `o` || vocals[i] === `u`) {
+            count++;
+        }
+    }
+    return count
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
+const result = letter(word);
+console.log(result)
 
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)

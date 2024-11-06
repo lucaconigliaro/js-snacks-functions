@@ -4,7 +4,8 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+const greeting = (name) => {console.log(`Ciao`, name)}
+greeting(name);
 
 // Invoca la funzione qui e stampa il risultato in console
 
