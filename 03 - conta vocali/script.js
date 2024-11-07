@@ -15,8 +15,7 @@ function letter(vocals) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-const result = letter(word);
-console.log(result)
+console.log(letter(word))
 
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)

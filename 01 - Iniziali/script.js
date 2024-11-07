@@ -14,8 +14,7 @@ function getInitials(name) {
 
 
 // Invoca la funzione qui e stampa il risultato in console
-const result = getInitials(names);
-console.log(result);
+console.log(getInitials(names));
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]

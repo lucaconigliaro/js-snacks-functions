@@ -15,8 +15,7 @@ function getInitials(name, letter) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-const result = getInitials(names, `A`);
-console.log(result);
+console.log( getInitials(names, `A`));
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
